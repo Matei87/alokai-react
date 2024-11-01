@@ -34,10 +34,7 @@ const Hero = ({ product }) => {
             {description}
           </p>
           <div className='flex flex-col md:flex-row gap-4 mt-6'>
-            <Link
-              // to={`/alokai-react/category/${category}`}
-              to='/alokai-react/category'
-            >
+            <Link to='/category'>
               <SfButton data-testid='button-order-now' size='lg' as='a'>
                 Browse category
               </SfButton>

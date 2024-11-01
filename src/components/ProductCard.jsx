@@ -17,7 +17,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className='border border-neutral-200 rounded-md hover:shadow-lg max-w-[300px]'>
       <div className='p-4'>
-        <Link to={`/alokai-react/product/${id}`} className='block'>
+        <Link to={`/product/${id}`} className='block'>
           <img
             src={image}
             alt='Great product'

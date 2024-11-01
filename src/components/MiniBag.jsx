@@ -128,7 +128,7 @@ const MiniBag = ({ isOpen, close }) => {
               <span className='font-semibold'>${totalItemsPrice}</span>
             </div>
             <Link
-              to='/alokai-react/shoppingbag'
+              to='/shoppingbag'
               className='bg-black uppercase p-2 text-center text-white'
             >
               Continue to Shopping Bag

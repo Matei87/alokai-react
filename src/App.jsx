@@ -13,11 +13,11 @@ const App = () => {
       <Routes>
         <Route path='*' element={<NotFound />} />
 
-        <Route path='/alokai-react/' element={<Homepage />} />
-        <Route path='/alokai-react/shoppingbag' element={<ShoppingBag />} />
-        <Route path='/alokai-react/product/:code' element={<Product />} />
-        <Route path='/alokai-react/category' element={<Category />} />
-        <Route path='/alokai-react/checkout' element={<Checkout />} />
+        <Route path='/' element={<Homepage />} />
+        <Route path='/shoppingbag' element={<ShoppingBag />} />
+        <Route path='/product/:code' element={<Product />} />
+        <Route path='/category' element={<Category />} />
+        <Route path='/checkout' element={<Checkout />} />
       </Routes>
     </>
   );

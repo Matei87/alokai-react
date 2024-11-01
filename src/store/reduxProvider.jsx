@@ -9,8 +9,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 const ReduxProvider = ({ children }) => {
   const { pathname } = useLocation();
   const navbar =
-    pathname === '/alokai-react/checkout' ||
-    pathname === '/alokai-react/shoppingbag' ? (
+    pathname === '/checkout' || pathname === '/shoppingbag' ? (
       <NavbarCheckout />
     ) : (
       <NavBar />

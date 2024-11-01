@@ -46,13 +46,13 @@ const NavBar = () => {
           <SfIconArrowBack />
         </SfButton>
         <Link
-          to='/alokai-react/'
+          to='/'
           aria-label='SF Homepage'
           className='inline-block mr-4 focus-visible:outline focus-visible:outline-offset focus-visible:rounded-sm shrink-0'
         >
           <img
             src={Logo}
-            alt='Vue Storefront Logo'
+            alt='Logo'
             width={175}
             height={50}
             className='w-[175px] md:h-6 md:w-[176px] lg:w-[12.5rem] lg:h-[1.75rem]'
@@ -75,7 +75,7 @@ const NavBar = () => {
           <SfIconMenu />
         </SfButton>
 
-        <Link to='/alokai-react/category'>
+        <Link to='/category'>
           <SfButton
             className='hidden lg:flex lg:mr-4 text-white hover:text-white active:text-white hover:bg-primary-800 active:bg-primary-900'
             variant='tertiary'

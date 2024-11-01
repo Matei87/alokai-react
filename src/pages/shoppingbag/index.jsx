@@ -33,7 +33,7 @@ const ShoppingBag = () => {
             </div>
 
             <Link
-              to='/alokai-react/category'
+              to='/category'
               className=' items-center justify-center font-bold text-base focus-visible:outline focus-visible:outline-offset rounded-md disabled:text-disabled-500 disabled:bg-disabled-300 disabled:shadow-none disabled:ring-0 disabled:cursor-not-allowed py-2 leading-6 px-4 gap-2 text-primary-700 hover:bg-primary-100 hover:text-primary-800 active:bg-primary-200 active:text-primary-900 disabled:bg-transparent hidden md:flex'
             >
               <SfIconArrowBack /> Back to Shopping
@@ -49,7 +49,7 @@ const ShoppingBag = () => {
                 >
                   <Link
                     className='focus-visible:outline focus-visible:outline-offset focus-visible:rounded-md'
-                    to={`/alokai-react/product/${id}`}
+                    to={`/product/${id}`}
                     aria-label={title}
                   >
                     <img
@@ -131,7 +131,7 @@ const ShoppingBag = () => {
                 <hr className='w-full h-px bg-neutral-200 my-4 max-md:-mx-4 max-md:w-auto' />
                 <Link
                   className='inline-flex items-center justify-center font-medium text-base uppercase focus-visible:outline focus-visible:outline-offset rounded-md disabled:text-disabled-500 disabled:shadow-none disabled:ring-0 disabled:cursor-not-allowed py-3 leading-6 px-6 gap-3 text-white shadow hover:shadow-md active:shadow bg-primary-700 hover:bg-primary-800 active:bg-primary-900 disabled:bg-disabled-300 w-full mb-4 md:mb-0'
-                  to='/alokai-react/checkout'
+                  to='/checkout'
                 >
                   Go to checkout
                 </Link>

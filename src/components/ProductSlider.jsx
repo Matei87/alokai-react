@@ -51,7 +51,7 @@ const ProductSlider = ({ products }) => {
           className='first:ms-auto last:me-auto ring-1 ring-inset ring-neutral-200 shrink-0 rounded-md hover:shadow-lg w-[148px] h-[290px] lg:w-[192px]'
         >
           <div className='p-2'>
-            <Link to={`/alokai-react/product/${id}`} className='block'>
+            <Link to={`/product/${id}`} className='block'>
               <img
                 src={image}
                 alt={title}

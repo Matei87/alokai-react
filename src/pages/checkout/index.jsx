@@ -32,7 +32,7 @@ const CheckoutPage = () => {
             </h1>
 
             <Link
-              to='/alokai-react/shoppingbag'
+              to='/shoppingbag'
               className=' items-center justify-center font-bold text-base focus-visible:outline focus-visible:outline-offset rounded-md disabled:text-disabled-500 disabled:bg-disabled-300 disabled:shadow-none disabled:ring-0 disabled:cursor-not-allowed py-2 leading-6 px-4 gap-2 text-primary-700 hover:bg-primary-100 hover:text-primary-800 active:bg-primary-200 active:text-primary-900 disabled:bg-transparent hidden md:flex'
             >
               <SfIconArrowBack /> Back to Shopping Bag
@@ -253,14 +253,14 @@ const CheckoutPage = () => {
                 By placing my order, you agree to our
                 <Link
                   className='focus-visible:outline focus-visible:outline-offset focus-visible:rounded-sm text-primary-700 underline hover:text-primary-800 active:text-primary-900 focus:outline focus:outline-offset-2 focus:outline-2 outline-secondary-600 rounded'
-                  to='/alokai-react/checkout'
+                  to='/checkout'
                 >
                   Terms and Conditions
                 </Link>
                 and our
                 <Link
                   className='focus-visible:outline focus-visible:outline-offset focus-visible:rounded-sm text-primary-700 underline hover:text-primary-800 active:text-primary-900 focus:outline focus:outline-offset-2 focus:outline-2 outline-secondary-600 rounded'
-                  href='/alokai-react/checkout'
+                  href='/checkout'
                 >
                   Privacy Policy
                 </Link>
